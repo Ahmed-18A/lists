@@ -28,15 +28,17 @@
         android:layout_marginTop="70dp"
         android:orientation="horizontal">
       <Button
+          android:textSize="25sp"
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:onClick="ad"
+          android:onClick="cancle"
           android:layout_marginRight="15dp"
           android:text="الغاء"/>
       <Button
           android:layout_width="wrap_content"
           android:layout_height="wrap_content"
-          android:onClick="cancle"
+          android:onClick="ad"
+          android:textSize="25sp"
           android:text="اضافة"/>
 
   </LinearLayout>
